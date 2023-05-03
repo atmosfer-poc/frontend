@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "outDir": "./build",
+    "allowJs": false,
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "pretty": true,
+    "noEmit": true,
+    "strict": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@common/*": ["./common/*"],
+      "@redux/*": ["./redux/*"],
+      "@components/*": ["./components/*"],
+      "@api/*": ["./api/*"],
+      "@pages/*": ["./pages/*"],
+      "@routes/*": ["./routes/*"],
+      "@assets/*": ["./assets/*"]
+    }
+  },
+  "include": ["./src/**/*"]
+}

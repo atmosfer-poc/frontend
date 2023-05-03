@@ -1,0 +1,20 @@
+.container {
+  padding: 6px 10px;
+  margin-right: 4px;
+}
+
+.locked {
+  color: #2d303d;
+}
+
+.deactive {
+  color: #af224f;
+}
+
+.active {
+  color: #2d865f;
+}
+
+.container[disabled] {
+  opacity: 0.5;
+}

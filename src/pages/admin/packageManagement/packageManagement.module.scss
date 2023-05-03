@@ -1,0 +1,11 @@
+@import "@common/styles/variables.scss";
+@import "../../dashboard/dashboard.module.scss";
+
+.tableNote {
+  padding: 10px 50px;
+  color: $color-grey-600;
+  font-size: 13px;
+  @media (max-width: 768px) {
+    margin: 20px;
+  }
+}

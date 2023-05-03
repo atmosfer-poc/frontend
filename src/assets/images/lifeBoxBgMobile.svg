@@ -1,0 +1,20 @@
+<svg width="134" height="130" viewBox="0 0 134 130" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path id="ps3v3gvjma" d="M0 0h134v130H0z"/>
+    </defs>
+    <g style="mix-blend-mode:luminosity" fill="none" fill-rule="evenodd">
+        <mask id="04fleisjxb" fill="#fff">
+            <use xlink:href="#ps3v3gvjma"/>
+        </mask>
+        <g mask="url(#04fleisjxb)" stroke-linejoin="square">
+            <path stroke-opacity=".8" stroke="#FAFBFC" stroke-width="3" d="m1.5 34.052 51.381 29.716v59.438L1.5 93.49V34.052z" fill="#F5F6F7"/>
+            <path stroke="#F5F6F7" stroke-width="1.8" d="m.9 33.012 52.581 30.41v60.824L.9 93.836V33.012z"/>
+            <path stroke="#FAFBFC" stroke-width="3" d="m54.381 1.733 51.385 29.719L54.381 61.17 2.996 31.452l51.385-29.72z" fill="#FFF"/>
+            <path stroke="#FFF" stroke-width="1.8" d="m54.381 1.04 52.584 30.412L54.38 61.864 1.798 31.452 54.38 1.04z"/>
+            <g>
+                <path stroke-opacity=".5" stroke="#F5F6F7" stroke-width="3" d="M107.262 34.052V93.49l-51.38 29.716V63.768l51.38-29.716z" fill="#E6E7ED"/>
+                <path stroke="#E6E7ED" stroke-width="1.8" d="M107.862 33.012v60.824l-52.58 30.41V63.422l52.58-30.41z"/>
+            </g>
+        </g>
+    </g>
+</svg>

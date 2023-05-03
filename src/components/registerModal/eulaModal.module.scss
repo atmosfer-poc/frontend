@@ -1,0 +1,22 @@
+.itemCenter {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.itemCenter button {
+  padding: 10px 80px;
+}
+.phoneInput {
+  border: none;
+  padding-left: 20px;
+  font-size: 15px;
+  background-image: linear-gradient(to bottom, #ffffff, #f5f6f7);
+  border-radius: 2px;
+  padding: 15px;
+  border-bottom: 1px solid #c7c9d4;
+  position: relative;
+}
+.phoneInput::placeholder {
+  color: #AEB2C2FF;
+}

@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "GreycliffCF-Light";
+  src: url("../../assets/fonts/GreycliffCF-Light.eot");
+  src: url("../../assets/fonts/GreycliffCF-Light.woff") format("woff");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "GreycliffCF-Regular";
+  src: url("../../assets/fonts/GreycliffCF-Regular.eot");
+  src: url("../../assets/fonts/GreycliffCF-Regular.woff") format("woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "GreycliffCF-Medium";
+  src: url("../../assets/fonts/GreycliffCF-Medium.eot");
+  src: url("../../assets/fonts/GreycliffCF-Medium.woff") format("woff");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "GreycliffCF-DemiBold";
+  src: url("../../assets/fonts/GreycliffCF-DemiBold.eot");
+  src: url("../../assets/fonts/GreycliffCF-DemiBold.woff") format("woff");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "GreycliffCF-Bold";
+  src: url("../../assets/fonts/GreycliffCF-Bold.eot");
+  src: url("../../assets/fonts/GreycliffCF-Bold.woff") format("woff");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "GreycliffCF-ExtraBold";
+  src: url("../../assets/fonts/GreycliffCF-ExtraBold.eot");
+  src: url("../../assets/fonts/GreycliffCF-ExtraBold.woff") format("woff");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "GreycliffCF-Heavy";
+  src: url("../../assets/fonts/GreycliffCF-Heavy.eot");
+  src: url("../../assets/fonts/GreycliffCF-Heavy.woff") format("woff");
+  font-weight: 900;
+}
+
+body,
+input,
+label,
+span,
+div {
+  font-family: "GreycliffCF-Regular", sans-serif;
+  font-feature-settings: normal !important;
+  font-variant: none !important;
+}

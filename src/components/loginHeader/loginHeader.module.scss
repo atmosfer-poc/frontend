@@ -1,0 +1,506 @@
+@import "@common/styles/variables.scss";
+
+.header {
+  border: solid 1px #e6e7ed;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  padding: 20px;
+  justify-content: center;
+  width: 100%;
+
+  &::-webkit-scrollbar {
+    width: 1px;
+    height: auto;
+  }
+}
+
+.loginHeader {
+  display: flex;
+  position: relative;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  max-width: 1580px;
+
+  ::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(235, 193, 0);
+    border-radius: 1px;
+  }
+}
+
+.loginHeaderBackground {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  transition: all ease-in 0.1s;
+  z-index: 1;
+
+  ::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(235, 193, 0);
+    border-radius: 1px;
+  }
+}
+
+.adminPanelBorder {
+  border-left: 2px solid #c7c9d4;
+  padding: 20px 0px 0px 20px;
+
+  a {
+    color: #2d97de !important;
+  }
+}
+
+.adminPanelMargin {
+  margin-top: 15px;
+}
+
+.marginTop {
+  margin-top: 10px;
+}
+
+.titleDropdownNameAbbreviation {
+  padding: 12px 12px 12px;
+  border-radius: 100%;
+  background-color: #e6e7ed;
+  color: #696d80;
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  text-align: center;
+  font-weight: 500;
+}
+
+.itemCenter {
+  text-align: center;
+}
+
+.titleDropdown {
+  height: 84px;
+  border-bottom: 1px solid #e6e7ed;
+}
+
+.dropdownHeader {
+  cursor: pointer;
+  position: relative;
+
+  img {
+    margin-left: 10px;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .dropdownName,
+    .dropdownNameAbbreviation,
+    .adminImg {
+      display: none !important;
+    }
+  }
+
+  .dropdownName {
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    color: #2d303d;
+  }
+
+  .dropdownNameAbbreviation {
+    margin-left: 10px;
+    padding: 9px 9px 9px 9px;
+    background-color: #e6e7ed;
+    border-radius: 100%;
+    color: #696d80;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+  }
+
+  .notificationIcon {
+    position: absolute;
+    margin: 0px !important;
+    background-color: white;
+    border-radius: 100%;
+    top: 20px;
+    right: 20px;
+    padding: 2px;
+  }
+
+  .hasNotificationBorder {
+    outline: solid 2px #1f9ba5;
+    border: 1px solid white;
+    margin-left: 10px;
+    padding: 9px 9px 9px 9px;
+    background-color: #e6e7ed;
+    border-radius: 100%;
+    color: #696d80;
+  }
+
+  .displayNone {
+    display: none;
+  }
+
+  .headerLocation {
+    position: relative;
+  }
+
+  .mobileBackground {
+    position: fixed;
+    top: 90px;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: $color-grey-1000;
+    z-index: -1;
+    opacity: 0.5;
+  }
+
+  .webBackground {
+    position: fixed;
+    top: 90px;
+    left: 0;
+    height: 1500vh;
+    width: 100vw;
+    z-index: -1;
+    opacity: 0;
+  }
+
+  .headerItem {
+    align-items: center;
+    display: flex;
+
+    .menuToggle {
+      display: none;
+      margin-left: 20px;
+    }
+  }
+
+  .adminDropdownRosette {
+    background: rgb(235, 193, 0);
+    margin: -4px !important;
+    position: absolute;
+    left: 95%;
+    padding: 2px;
+    top: 3px;
+    border-radius: 100%;
+  }
+
+  .adminPanel {
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.62;
+    background: #e6e7ed;
+    padding: 0px 0px 20px 20px !important;
+
+    p {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: #2d97de;
+    }
+  }
+
+  .adminDownDropdownRosette {
+    background: rgb(235, 193, 0);
+    margin: -5px !important;
+    position: absolute;
+    left: 68%;
+    padding: 2px;
+    top: 3px;
+    border-radius: 100%;
+  }
+
+  .contentRosette {
+    background: rgb(235, 193, 0);
+    padding: 2px;
+    border-radius: 100%;
+    margin-bottom: 12px;
+    margin-left: 5px !important;
+  }
+
+  .show,
+  .hide {
+    height: 390px;
+    overflow-y: scroll;
+    display: block;
+    position: absolute;
+    margin: 0;
+    margin-top: 20px;
+    width: 360px;
+    border-bottom: 1px solid #fff;
+    right: -20px;
+    padding-left: 0px;
+    background-color: #ffffff;
+    z-index: 1;
+    box-shadow: 2px 2px 5px 1px rgb(230, 231, 237);
+
+    li {
+      list-style: none;
+      padding: 20px;
+      font-weight: bold;
+      color: #2d303d;
+
+      &:hover {
+        background-color: #f5f6f7;
+      }
+
+      a {
+        color: #2d303d;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .userShow,
+  .userHide {
+    display: block;
+    margin: 0;
+    position: absolute;
+    margin-top: 20px;
+    width: 340px;
+    border-bottom: 1px solid #fff;
+    right: -20px;
+    padding-left: 0px;
+    background-color: #ffffff;
+    z-index: 1;
+    box-shadow: 2px 2px 5px 1px rgb(230, 231, 237);
+
+    li {
+      list-style: none;
+      padding: 20px;
+      font-weight: bold;
+      color: #2d303d;
+
+      a {
+        color: #2d303d;
+      }
+
+      &:hover {
+        background-color: #f5f6f7;
+      }
+    }
+  }
+
+  .adminPanels {
+    padding: 0px !important;
+  }
+
+  .downDropdownNameCol {
+    margin-left: 15px;
+
+    .downDropdownName {
+      font-size: 15px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.53;
+      letter-spacing: normal;
+      color: black;
+    }
+
+    p {
+      color: #696d80;
+      font-weight: 500;
+    }
+  }
+
+  .contentManagementPanel {
+    background-color: #f5f6f7;
+    padding-left: 20px;
+
+    li {
+      border-left: 2px solid #c7c9d4;
+    }
+
+    hr {
+      left: 40px;
+      position: absolute;
+      width: 18px;
+      margin: auto;
+      color: #e6e7ed;
+      opacity: 0.2;
+    }
+  }
+
+  .adminPadding {
+    padding: 0px !important;
+  }
+
+  .managementPanel {
+    padding: 20px;
+  }
+
+  .transactionHistoryBadge {
+    padding: 0 4px;
+    margin: 4px 0 1px 9px;
+    border-radius: 100%;
+    background-color: #1f9ba5;
+    color: white;
+  }
+
+  .loginHeaderNotification {
+    display: block;
+    position: absolute;
+    margin-left: 30%;
+    font-size: 12px;
+    color: #1f9ba5;
+    top: 20px;
+  }
+
+  @media screen and (min-width: 1200px) and (max-width: 1620px) {
+    .hide {
+      margin-right: 10px;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .headerItem {
+      .menuToggle {
+        display: block;
+      }
+    }
+
+    .dropdownHeader {
+      .dropdownName,
+      .dropdownNameAbbreviation,
+      .adminImg {
+        display: none;
+      }
+    }
+
+    .loginHeaderBackground {
+      padding: 20px;
+    }
+
+    .hasNotificationBorder {
+      display: none;
+    }
+
+    .show {
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      top: 55px;
+      padding: 0;
+      width: 100%;
+      background: $color-white;
+      left: 0;
+      text-align: start;
+      border-top: 1px solid $color-grey-200;
+      padding: 0px;
+      box-shadow: 0px 0px 0px 0px rgb(230, 231, 237);
+    }
+
+    .hide {
+      display: none;
+    }
+
+    .userShow {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      top: 55px;
+      padding: 0;
+      width: 100%;
+      background: $color-white;
+      left: 0;
+      text-align: start;
+      border-top: 1px solid $color-grey-200;
+      padding: 0px;
+      box-shadow: 0px 0px 0px 0px rgb(230, 231, 237);
+    }
+
+    .loginHeaderNotification {
+      display: none;
+    }
+
+    .notificationIcon {
+      display: none;
+    }
+
+    .userHide {
+      display: none;
+    }
+
+    .dropdownHeader {
+      position: initial;
+    }
+
+    .downDropdownNameCol {
+      margin-left: 30px;
+    }
+
+    .adminDownDropdownRosette {
+      background: rgb(235, 193, 0);
+      margin: 0px !important;
+      position: absolute;
+      left: 27px;
+      padding: 2px;
+      top: -3px;
+      border-radius: 100%;
+    }
+
+    .adminDropdownRosette {
+      display: none;
+    }
+
+    .userimg {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .loginHeader {
+      background-color: $color-grey-200;
+    }
+  }
+}
+
+.adminModal img {
+  margin-bottom: 20px;
+}
+
+.adminModal a {
+  display: block;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 1500px) {
+  .loginHeader {
+    max-width: none;
+  }
+}

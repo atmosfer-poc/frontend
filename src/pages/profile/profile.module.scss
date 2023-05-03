@@ -1,0 +1,67 @@
+@import "@common/styles/variables.scss";
+@import "../dashboard/dashboard.module.scss";
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 15px;
+  padding-left: 20px;
+
+  span {
+    font-size: 10px;
+    font-weight: 500;
+    color: $color-grey-400;
+  }
+
+  p {
+    font-size: 15px;
+    font-weight: 600;
+    color: $color-grey-600;
+  }
+}
+
+.userInfo::before {
+  content: "";
+  position: absolute;
+  height: 25px;
+  width: 2px;
+  margin-left: -20px;
+  background-color: $color-grey-300;
+  margin-top: -15px;
+}
+
+.changePassword {
+  background: $color-grey-100;
+  padding: 25px 30px;
+  width: 40%;
+
+  @media (max-width:768px) {
+    width: 100%;
+  }
+
+  span {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 15px;
+    color: $color-grey-600;
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-weight: bold;
+
+    a {
+      color: #2d97de;
+      font-weight: bold;
+      text-transform: lowercase;
+      margin-left: 5px;
+    }
+  }
+}
+
+.profileSidebar {
+  width: 270px;
+}

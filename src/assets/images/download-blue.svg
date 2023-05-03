@@ -1,0 +1,22 @@
+<svg
+  width="20"
+  height="20"
+  viewBox="0 0 20 20"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    <clipPath id="m8z5nnqwba">
+      <path d="M1440 0v650H0V0h1440z" />
+    </clipPath>
+    <clipPath id="dinbtgmxmb">
+      <path
+        d="m2.087 13.75.088.088-.087 2.412 11.662.087.088-2.587 2.087.088v2.901l-.011.173a1.713 1.713 0 0 1-1.376 1.482l-.158.023-.168.008h-12.5a1.713 1.713 0 0 1-1.68-1.38l-.023-.162-.009-.17.087-2.963h2zM8.963 0l.088.087v10.618l4.343-4.216 1.412 1.535-6.904 6.78-6.78-6.903 1.534-1.412 4.221 4.216L6.963 0h2z"
+      />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#m8z5nnqwba)" transform="translate(-524 -498)">
+    <g clip-path="url(#dinbtgmxmb)" transform="translate(526.037 498.787)">
+      <path fill="#2d97de" d="M0 0h15.925v18.425H0V0z" />
+    </g>
+  </g>
+</svg>

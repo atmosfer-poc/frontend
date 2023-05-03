@@ -1,0 +1,15 @@
+<svg width="21" height="21" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <clipPath id="e3imvbuaqa">
+            <path d="M1440 0v1054H0V0h1440z"/>
+        </clipPath>
+        <clipPath id="yodsynokvb">
+            <path d="M6.75 0v5.25H12v1.5H6.75V12h-1.5V6.75H0v-1.5h5.25V0h1.5z"/>
+        </clipPath>
+    </defs>
+    <g clip-path="url(#e3imvbuaqa)" transform="translate(-729 -122)">
+        <g clip-path="url(#yodsynokvb)" transform="translate(733.5 126.5)">
+            <path fill="#1766CF" d="M0 0h12v12H0V0z"/>
+        </g>
+    </g>
+</svg>

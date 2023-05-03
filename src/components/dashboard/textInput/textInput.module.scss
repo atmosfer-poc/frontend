@@ -1,0 +1,9 @@
+.inputItem{
+    label{
+        display: none;
+    }
+    input:focus~label, input:not(:placeholder-shown)~label, span~label  {
+            display: block;
+        }
+    
+}

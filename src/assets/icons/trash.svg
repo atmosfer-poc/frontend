@@ -1,0 +1,40 @@
+<svg
+  width="16"
+  height="16"
+  viewBox="0 0 16 16"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    <clipPath id="n9hfoxtgja">
+      <path d="M1440 0v953H0V0h1440z" />
+    </clipPath>
+    <clipPath id="z8bzxd6dnb">
+      <path d="m1.575 0 .075.075v6.5l-.075.075h-1.5L0 6.575v-6.5L.075 0h1.5z" />
+    </clipPath>
+    <clipPath id="mbebp7yz0c">
+      <path d="m1.575 0 .075.075v6.5l-.075.075h-1.5L0 6.575v-6.5L.075 0h1.5z" />
+    </clipPath>
+    <clipPath id="xl3d9wce0d">
+      <path
+        d="m12.575 0 .075.075v1.5l-.075.075h-.925v9.675c0 .542-.328 1.017-.81 1.22l-.123.046-.129.033-.131.02-.132.006h-8c-.636 0-1.174-.45-1.298-1.06l-.02-.133L1 11.325V1.65H.075L0 1.575v-1.5L.075 0h12.5zM10 1.65H2.65V11H10V1.65z"
+      />
+    </clipPath>
+    <clipPath id="0lqh9fu33e">
+      <path d="m4.575 0 .075.075v1.5l-.075.075h-4.5L0 1.575v-1.5L.075 0h4.5z" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#n9hfoxtgja)" transform="translate(-1107 -650)">
+    <g clip-path="url(#z8bzxd6dnb)" transform="translate(1112.675 655.675)">
+      <path fill="#191B23" d="M0 0h1.65v6.65H0V0z" />
+    </g>
+    <g clip-path="url(#mbebp7yz0c)" transform="translate(1115.675 655.675)">
+      <path fill="#191B23" d="M0 0h1.65v6.65H0V0z" />
+    </g>
+    <g clip-path="url(#xl3d9wce0d)" transform="translate(1108.675 652.675)">
+      <path fill="#191B23" d="M0 0h12.65v12.65H0V0z" />
+    </g>
+    <g clip-path="url(#0lqh9fu33e)" transform="translate(1112.675 650.675)">
+      <path fill="#191B23" d="M0 0h4.65v1.65H0V0z" />
+    </g>
+  </g>
+</svg>

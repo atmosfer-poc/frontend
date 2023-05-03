@@ -1,0 +1,66 @@
+.white {
+  background-color: #ffffff;
+  color: #2d303d;
+  padding: 10px 30px 10px;
+  border-radius: 28px;
+  font-size: 15px;
+  font-weight: bold;
+  width: fit-content;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+:disabled {
+  background-color: #f5f6f7;
+  color: #c7c9d4;
+  border: none;
+  cursor: not-allowed;
+}
+
+.black {
+  background-color: #191b24;
+  color: #ffffff;
+  padding: 10px 10px 10px;
+  border-radius: 28px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.red {
+  background-color: #ffffff;
+  border: 1px solid #af224f;
+  color: #af224f;
+  padding: 10px 30px 10px;
+  border-radius: 28px;
+  font-size: 15px;
+  font-weight: bold;
+  width: fit-content;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+:disabled {
+  background-color: #f5f6f7;
+  color: #c7c9d4;
+  border: none;
+  cursor: not-allowed;
+}
+
+.adminButton {
+  @media (max-width: 768px) {
+    padding: 10px 10px 10px;
+
+    span {
+      display: none;
+    }
+  }
+}

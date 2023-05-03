@@ -1,0 +1,20 @@
+<svg width="223" height="217" viewBox="0 0 223 217" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path id="fwgigvkfta" d="M0 0h223v217H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="iwvj02zqzb" fill="#fff">
+            <use xlink:href="#fwgigvkfta"/>
+        </mask>
+        <g mask="url(#iwvj02zqzb)" stroke-linejoin="square">
+            <path stroke-opacity=".8" stroke="#FAFBFC" stroke-width="5" d="m44.5 56.84 85.5 49.6v99.22l-85.5-49.6V56.84z" fill="#F5F6F7"/>
+            <path stroke="#F5F6F7" stroke-width="3" d="m43.5 55.104 87.5 50.76v101.532l-87.5-50.76V55.104z"/>
+            <path stroke="#FAFBFC" stroke-width="5" d="m132.5 2.89 85.518 49.61-85.518 49.61L46.982 52.5 132.5 2.89z" fill="#FFF"/>
+            <path stroke="#FFF" stroke-width="3" d="M132.5 1.734 220.01 52.5l-87.51 50.766L44.99 52.5 132.5 1.734z"/>
+            <g>
+                <path stroke-opacity=".5" stroke="#F5F6F7" stroke-width="5" d="M220.5 56.84v99.22l-85.5 49.6v-99.22l85.5-49.6z" fill="#E6E7ED"/>
+                <path stroke="#E6E7ED" stroke-width="3" d="M221.5 55.104v101.532l-87.5 50.76V105.864l87.5-50.76z"/>
+            </g>
+        </g>
+    </g>
+</svg>

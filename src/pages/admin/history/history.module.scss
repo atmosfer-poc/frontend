@@ -1,0 +1,26 @@
+@import "@common/styles/variables.scss";
+@import "../../dashboard/dashboard.module.scss";
+.historyTableName {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  color: $color-grey-800;
+  small {
+    display: block;
+    margin-top: -3px;
+    font-size: 10px;
+    color: $color-grey-600;
+  }
+  .success {
+    color: green;
+    font-weight: bold;
+  }
+  .red {
+    color: red;
+    font-weight: bold;
+  }
+}
+.cleanPanel {
+  padding-right: 5px;
+  padding-bottom: 3px;
+}
