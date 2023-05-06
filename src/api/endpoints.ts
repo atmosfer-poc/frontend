@@ -8,6 +8,7 @@ export namespace Endpoints {
   export const USERS_SEARCH_EXCEL = "/portal-service/v1/users/search/excel";
   export const USERS_EXAMPLE_EXCEL = "/portal-service/v1/users/example/excel";
   export const USERS = "/account-service/v1/users";
+  export const USERS_ALL = "/account-service/v1/users/all";
   export const USERS_UPSERT = "/portal-service/v1/users/upsert";
   export const USERS_NAME_OPTIONS = "/portal-service/v1/users/name-options";
   export const USERS_SURNAME_OPTIONS = "/portal-service/v1/users/surname-options";
@@ -38,4 +39,7 @@ export namespace Endpoints {
   export const PRODUCTS = "/product-service/v1/products"
   export const PAGEABLE = "/pageable"
   export const TOKEN = "/account-service/v1/token"
+  export const ALL_ADVERTISEMENT = "/advertisement-service/v1/advertisements/all"
+  export const ADVERTISEMENT = "/advertisement-service/v1/advertisements"
+  export const APPLICATIONS = "/application-service/v1/applications"
 }

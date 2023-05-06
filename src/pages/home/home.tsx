@@ -137,6 +137,7 @@ export const HomePage = () => {
           <CustomButton
             label={"Kayıt Ol"}
             color="black"
+            type={'button'}
             onClick={register}
           />
         </div>

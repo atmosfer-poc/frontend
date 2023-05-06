@@ -19,10 +19,10 @@ export const RegisterModal = (props: Props) => {
   return (
     <Modal visible={props.visible} onCancel={props.onCancel} footer closable={true}>
       <Form ref={createFormRef} name="control-ref" onFinish={props.onOk}>
-        <div className={styles.grid6and6}>
+        <div style={{marginTop: "20px"}} className={styles.grid6and6}>
           <Form.Item name="name">
             <TextInput
-              label={getTranslateValue("user-management-form-name", "Ad")}
+              label={''}
               name="name"
               placeholder={getTranslateValue(
                 "user-management-form-name",
@@ -32,10 +32,7 @@ export const RegisterModal = (props: Props) => {
           </Form.Item>
           <Form.Item name="surname">
             <TextInput
-              label={getTranslateValue(
-                "user-management-form-surname",
-                "Soyadı"
-              )}
+              label={''}
               name="surname"
               placeholder={getTranslateValue(
                 "user-management-form-surname",
@@ -69,7 +66,7 @@ export const RegisterModal = (props: Props) => {
         <div className={styles.grid6and6}>
           <Form.Item name="password">
             <TextInput
-              label={"Şifre"}
+              label={''}
               type={"password"}
               name="password"
               placeholder={"Şifrenizi giriniz"}
@@ -78,7 +75,7 @@ export const RegisterModal = (props: Props) => {
         </div>
         <div className={styles.itemCenter}>
           <CustomButton
-            label={getTranslateValue("save", "Kaydet")}
+            label={'Kayıt Ol'}
             color="black"
             type={"submit"}
           />

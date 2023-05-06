@@ -39,10 +39,10 @@ export namespace ISso {
   }
 
   export enum UserRole {
-    USER = "USER",
+    HR = "HR",
     ADMIN = "ADMIN",
-    BUSINESS = "BUSINESS",
-    TENANT_MANAGER = "TENANT_MANAGER",
-    BLOCK = "BLOCK"
+    TECHNICAL = "TECHNICAL",
+    FINANCE = "FINANCE",
+    UNASSIGNED = "UNASSIGNED"
   }
 }

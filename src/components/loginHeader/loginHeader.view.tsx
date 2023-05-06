@@ -25,7 +25,6 @@ export const LoginHeaderView = (props: Props) => {
 
   const checkAdmin = RoleChecker.checkRole(props.user, [
     ISso.UserRole.ADMIN,
-    ISso.UserRole.TENANT_MANAGER,
   ]);
 
   useEffect(() => {
@@ -62,13 +61,7 @@ export const LoginHeaderView = (props: Props) => {
       <div
         className={fixed ? styles.loginHeaderBackground : styles.loginHeader}
       >
-        <img
-          style={{cursor: "pointer"}}
-          onClick={() => navigate("/welcome")}
-          src={logo}
-          alt="logo"
-          width={93}
-        />
+        <h2>TURKCELL POC</h2>
         <div className={styles.dropdownHeader}>
           {menuOpen && (
             <div
@@ -228,12 +221,12 @@ export const LoginHeaderView = (props: Props) => {
                       </Row>
                     </a>
                   </li>
-                  <li onClick={props.logout} className={styles.signOut}>
+                  <li onClick={() => props.onChangeTab('users')} className={styles.signOut}>
                     <a>
                       {"Bayi Çalışanları"}
                     </a>
                   </li>
-                  <li onClick={props.logout} className={styles.signOut}>
+                  <li onClick={() => props.onChangeTab('jobs')} className={styles.signOut}>
                     <a>
                       {"Pozisyonlar"}
                     </a>
@@ -295,4 +288,5 @@ interface Props {
   setFixed: (fixed: boolean) => void;
   setLastScroll: (lastScroll: number) => void;
   setMenuOpen: (menuOpen: boolean) => void;
+  onChangeTab: (tab: string) => void;
 }

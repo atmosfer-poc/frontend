@@ -32,7 +32,7 @@ window.fetch = async (input, init) => {
         }
       }
     }
-    const response = await origFetch((process.env.apiUrl || "http://localhost:8080/api") + input, init);
+    const response = await origFetch((process.env.apiUrl || "http://185.126.217.205:8080/api") + input, init);
 
     if (response.status === 401 &&
       (window.location.pathname.includes('admin')

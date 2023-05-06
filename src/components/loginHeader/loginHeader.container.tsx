@@ -5,7 +5,7 @@ import { RootStore, useAppDispatch } from "@redux/store";
 import {clearAuthState, logout} from "@redux/actions/sso-actions";
 import { useSelector } from "react-redux";
 
-export const LoginHeader = () => {
+export const LoginHeader = (props: IProps) => {
   const [fixed, setFixed] = useState(false);
   const [lastScroll, setLastScroll] = useState(0);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -28,6 +28,7 @@ export const LoginHeader = () => {
   return (
     <LoginHeaderView
       logout={onLogoutClick}
+      onChangeTab={props.changeTab}
       user={data}
       fixed={fixed}
       lastScroll={lastScroll}
@@ -38,3 +39,7 @@ export const LoginHeader = () => {
     />
   );
 };
+
+interface IProps {
+  changeTab: (tab: string) => void
+}

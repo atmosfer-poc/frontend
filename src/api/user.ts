@@ -2,13 +2,12 @@ import {Endpoints} from "@api/endpoints";
 import { IUser} from "@common/interfaces/user";
 
 export namespace UserClient {
-  export const getUsers = async (data: IUser.UserSearchModel) => {
-    const response = await fetch(Endpoints.USERS_SEARCH, {
-      method: 'POST',
+  export const getUsers = async () => {
+    const response = await fetch(Endpoints.USERS_ALL, {
+      method: 'GET',
       headers: new Headers({
         'Content-Type': 'application/json',
       }),
-      body: JSON.stringify(data)
     });
     return await response.json();
   };
@@ -39,8 +38,8 @@ export namespace UserClient {
     }
   }
 
-  export const updateUser = async (data: IUser.UpdateUserModel) => {
-    const response = await fetch(Endpoints.USERS, {
+  export const updateUser = async (data: any) => {
+    const response = await fetch(Endpoints.USERS + "/" + data.id, {
       method: 'PUT',
       headers: new Headers({
         'Content-Type': 'application/json',

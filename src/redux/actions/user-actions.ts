@@ -4,16 +4,6 @@ import {UserClient} from "@api/user";
 import {Notifications} from "../../services/notifications";
 import {RcFile} from "antd/es/upload";
 
-export const getUsers = (model: IUser.UserSearchModel) => async (dispatch: UserDispatch) => {
-  try {
-    dispatch({ type: "USERS_START" });
-    const data = await UserClient.getUsers(model);
-    dispatch({ type: "USERS_SUCCESS", payload: data });
-  } catch (e) {
-    dispatch({ type: "USERS_ERROR" });
-  }
-};
-
 export const createUser = (model: IUser.CreateUserModel, profilePhoto?: RcFile) => async (dispatch: UserDispatch) => {
   try {
     dispatch({ type: "USER_CREATE_START" });

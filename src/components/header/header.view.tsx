@@ -28,7 +28,7 @@ export const HeaderView = (props: Props) => {
   return (
     <>
       {props.userData?.userId ? (
-        <LoginHeader />
+        <LoginHeader changeTab={(e) => console.log(e)} />
       ) : (
         <div className={fixed ? styles.headerBackground : styles.header}>
           <div className={styles.headerItem}>

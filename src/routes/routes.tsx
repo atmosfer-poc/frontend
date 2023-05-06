@@ -16,7 +16,7 @@ export const Routes = () => {
 
           <Route
             path="/welcome"
-            element={<AuthGuard roles={[ISso.UserRole.ADMIN, ISso.UserRole.TENANT_MANAGER, ISso.UserRole.USER]}
+            element={<AuthGuard roles={[ISso.UserRole.ADMIN, ISso.UserRole.HR, ISso.UserRole.FINANCE, ISso.UserRole.TECHNICAL, ISso.UserRole.UNASSIGNED]}
                                 element={<Welcome/>}/>}
           />
 
