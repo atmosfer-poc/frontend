@@ -25,8 +25,6 @@ P
 +src/redux/reducers/subscriptions-reducer.ts,f/b/fb9e8aaab31066396532f1761adc85d6cbd7fe54
 M
 src/common/interfaces/type.ts,d/3/d3e01cef21934294c537496b4bc757ecbfa1c8b3
-@
-build/index.html,9/9/990a85f5e72fc21bd93d9e8ddb10d110045a91c8
 L
 src/common/interfaces/lov.ts,d/2/d25e0e888b76aaa3eac220c9cb1567a8225c3285
 ^
@@ -39,20 +37,14 @@ L
 src/components/hero/hero.tsx,1/4/143814fcc1610123d2eea76b2b72eb015e5536a5
 `
 0src/components/dashboard/textInput/textInput.tsx,e/3/e3da2207ebf2269d056a10af0fb031066bfa4ec9
-A
-package-lock.json,f/a/fa288d1472d29beccb489a676f68739ad365fc47
 I
 webpack/webpack.config.js,6/5/651c18c4bbd182a99250663bfe411fb159c849ec
 >
 src/api/lov.ts,a/5/a5b71f17ea643b60643553d08664a11acb15582d
 U
 %src/common/interfaces/subscription.ts,5/b/5b38be8313df3f7cd7c4c43ec1c76c797935c069
-9
-	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 =
 tsconfig.json,6/1/61ebb9fd6e8cf9082658121d5d81e297791dacd0
-Y
-)src/pages/dashboard/dashboard.module.scss,9/6/967d0f4640d225d15f308a6468c97259df0621f9
 T
 $src/pages/profile/profileSidebar.tsx,0/4/04b6d2f43dc6acab3585e197c48974f398dafd6a
 ?
@@ -61,12 +53,6 @@ X
 (src/assets/images/notification-check.svg,e/f/efd6131be52390f5d19945185688ef804dcfbbfa
 L
 src/assets/images/upload.svg,f/5/f5e908a20b698b55713cb972620184c2b40ed8bb
-9
-	yarn.lock,5/3/53585a096fe3a3b96321113856ae62602995a33b
-~
-Nsrc/components/userManagement/selectedUserContainer/selectedUserContainer.scss,c/e/cec4f6b4db0b2b40cd7e44a398bc3525e096dc03
-{
-Ksrc/components/userManagement/modal/editUserModal/editUserModal.module.scss,2/6/265c5985feaede9834141e0f1c8c69b1fe429bd6
 f
 6src/components/dashboard/sidebar/sidebar.container.tsx,b/5/b5ef1923a482c3d989349f36d043a9d6ba622152
 M
@@ -81,12 +67,6 @@ K
 src/common/styles/font.scss,f/5/f592ac34e621ae9b043ba5b3da0ccc4560c5cb67
 @
 src/typings.d.ts,e/4/e4d70b66b36de6c96cee1b8a56dfff25753ae874
-ƒ
-Ssrc/components/userManagement/modal/changeStatusModal/changeStatusModal.module.scss,c/e/ce398f847b4787be3befe6c7c1426843a5373092
-]
--src/pages/help/view/helpMobile/helpMobile.tsx,2/1/21c6b203509358925c864a61bc4c3f9556012944
-_
-/src/pages/help/view/helpDesktop/helpDesktop.tsx,a/4/a4a05ed7f5e0822eb5e89710be324409beb3e1b4
 M
 src/assets/icons/userDark.svg,3/2/32c29c9387b21216c93805bb18ef7d835f14cf5d
 \
@@ -117,8 +97,6 @@ b
 2src/components/loginHeader/loginHeader.module.scss,4/4/447ed2788e8cf40477cb45ced6893432826277a6
 F
 src/redux/types/sso.ts,6/e/6ea36cbfe4445b91cbe709ade30c3084cc8aee5c
-g
-7src/components/userManagement/toolTipBox/toolTipBox.tsx,9/5/95b1cf57d68bc3118609446862162d9c68c7a57e
 Z
 *src/redux/actions/subscriptions-actions.ts,0/5/055a7b9b069ccaba3cdc6fec3a6fb44f6626b8d2
 R
@@ -131,14 +109,8 @@ J
 src/redux/types/account.ts,4/f/4fe02a7a3abc6e1d4fc82251220cae1a480d272b
 U
 %src/redux/reducers/account-reducer.ts,3/e/3edf223e3037f4980bedf4b7bd53086ee5ad3b6b
-d
-4src/components/dashboard/importTable/importTable.tsx,9/1/91b1a90417e2a62e265afd870fc96f7b0a976eac
 Q
 !src/pages/documents/documents.tsx,8/7/873e2dea0e2ed938f7f971b362ea0d19e8cebb5f
-w
-Gsrc/components/userManagement/modal/deleteUserModal/deleteUserModal.tsx,c/f/cfd328da7cc9c36882c53b78716b8923c18ca3e4
-{
-Ksrc/components/userManagement/modal/changeStatusModal/changeStatusModal.tsx,3/a/3a396b42e4d8841f9e58cc7a566e94c469d5b0fd
 M
 src/common/interfaces/user.ts,7/9/798c68bcc8187515decafd4a87ab4cce86303f7a
 ?
@@ -153,12 +125,6 @@ S
 #src/redux/actions/domain-actions.ts,6/8/68abeb575fdcddd598d82660037f4f6226840b67
 …
 Usrc/components/connectionSettings/domainTableColumnStatus/domainTableColumnStatus.tsx,0/e/0e040da9fe845a1048bd2b3a63f60107084b4fa1
-r
-Bsrc/pages/conditionsParticipation/contractConfirmation.module.scss,1/c/1c068802c9cee94aab6cddc082765ac6ba361eb0
-^
-.src/components/agreement/agreement.module.scss,2/a/2ae49f5278b25e21d99a4c5b4704f3777b93f662
-}
-Msrc/components/userManagement/modal/changePackageModal/changePackageModal.tsx,2/b/2ba42d82475a937ba5ad4affe07051a279943ea3
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
@@ -166,10 +132,6 @@ Msrc/components/userManagement/modal/changePackageModal/changePackageModal.tsx,
 src/index.html,5/c/5c975582791da6f060261188096d6aad85db6e09
 T
 $src/redux/actions/account-actions.ts,d/b/dba2dcdbe6a0b4aca48ebcd5ce77784a39e04dfb
-
-Osrc/components/userManagement/modal/changePasswordModal/changePasswordModal.tsx,d/c/dc75d0b582158c090da1a7dfea5f77ec061a56e1
-}
-Msrc/components/userManagement/selectedUserContainer/selectedUserContainer.tsx,0/8/084dc802a8c9ab412b1d808342ebe9c60fbc5971
 a
 1src/components/dashboard/sidebar/sidebar.view.tsx,0/e/0e86ba983659bc25685023bf0546e5e067b1a521
 W
@@ -194,8 +156,6 @@ G
 webpack/webpack.test.js,0/f/0f7fafe7d837f6cce77466c34e892b0198ee6dfb
 <
 package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
-s
-Csrc/components/userManagement/modal/editUserModal/editUserModal.tsx,3/4/344b9e35b2cf40c3d62ca5a1bd8d378c1e3e2ce4
 P
  src/common/interfaces/account.ts,0/6/067be7c832634ac29793b0fa255205dbbe80d0ac
 B
@@ -204,10 +164,6 @@ H
 src/redux/types/users.ts,6/f/6f50f407070b5e5ed1b646a465ae7d9d0050f71c
 T
 $src/services/notifications/index.tsx,6/8/6893ee3f96328ccb452933071f17e4027d1f3410
-s
-Csrc/components/userManagement/modal/addExcelModal/addExcelModal.tsx,1/1/110b9a67a4468d21719bfc113e56a85436452adf
-q
-Asrc/pages/admin/connectionSettings/connectionSettings.module.scss,1/f/1f6cc3f83eaa0fdaed8231be3019da238510e332
 }
 Msrc/components/connectionSettings/dnsStatusColumn/dnsStatusColumn.module.scss,5/f/5f3f599c78f20b67e51195856f5284a0f381de18
 u

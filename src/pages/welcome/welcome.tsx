@@ -1,7 +1,5 @@
 import React, {useEffect, useState} from "react";
 import {LoginHeader} from "@components/loginHeader/loginHeader.container";
-import {ProductList} from "@components/productlist/productList";
-import {ProductAdd} from "@components/productAdd/productAdd";
 import {ISso} from "@common/interfaces/sso";
 import {useSelector} from "react-redux";
 import {RootStore} from "@redux/store";
@@ -21,9 +19,9 @@ export const Welcome = () => {
     <>
       <LoginHeader/>
       {userIsAdmin ? (
-        <ProductAdd/>
+        <h1>ADMIN</h1>
       ) : (
-        <ProductList userIsLogin={true}/>
+        <h1>BİLMEMNE</h1>
       )}
     </>
   );

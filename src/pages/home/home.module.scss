@@ -127,3 +127,29 @@
     }
   }
 }
+
+.login-space {
+  padding-left: 25% !important;
+  padding-right: 25% !important;
+  margin-top: 35% !important;
+}
+
+.itemCenter {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.grid6and6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  & > div:nth-child(1) {
+    width: 48%;
+  }
+
+  & > div:nth-child(2) {
+    width: 48%;
+  }
+}

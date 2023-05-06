@@ -1,9 +1,5 @@
 import React from "react";
 import styles from "./header.module.scss";
-import menu from "@assets/images/menu.svg";
-import closeMenu from "@assets/images/close-menu.svg";
-import {Button} from "@components/button/button";
-import {getTranslateValue} from "@components/translate/Language";
 import {ISso} from "@common/interfaces/sso";
 import {LoginHeader} from "@components/loginHeader/loginHeader.container";
 
@@ -15,9 +11,6 @@ export const HeaderView = (props: Props) => {
     setMenuOpen,
     setFixed,
     setLastScroll,
-    loginEnabled,
-    login,
-    isLanding,
   } = props;
   const stickyNavigation = function () {
     const currentScroll = window.pageYOffset;
@@ -29,9 +22,6 @@ export const HeaderView = (props: Props) => {
       setFixed(true);
     }
     setLastScroll(currentScroll);
-  };
-  const handleMenu = () => {
-    setMenuOpen(!menuOpen);
   };
   window.addEventListener("scroll", stickyNavigation);
 
@@ -60,19 +50,6 @@ export const HeaderView = (props: Props) => {
               />
             )}
           </div>
-          <div className={styles.headerItem}>
-            <Button
-              label={getTranslateValue("login", "Giriş Yap")}
-              onClick={() => login()}
-              disabled={!loginEnabled}
-              color="black"
-            />
-            <img
-              onClick={() => handleMenu()}
-              className={styles.menuToggle}
-              src={menuOpen ? closeMenu : menu}
-            />
-          </div>
         </div>
       )}
     </>
@@ -86,9 +63,5 @@ interface Props {
   setFixed: (fixed: boolean) => void;
   setLastScroll: (lastScroll: number) => void;
   setMenuOpen: (menuOpen: boolean) => void;
-  loginEnabled: boolean;
-  login: () => void;
-  isLanding: boolean;
-  register: any;
   userData?: ISso.CurrentUserModel;
 }
