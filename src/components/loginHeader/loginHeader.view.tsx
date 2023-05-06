@@ -230,6 +230,16 @@ export const LoginHeaderView = (props: Props) => {
                   </li>
                   <li onClick={props.logout} className={styles.signOut}>
                     <a>
+                      {"Bayi Çalışanları"}
+                    </a>
+                  </li>
+                  <li onClick={props.logout} className={styles.signOut}>
+                    <a>
+                      {"Pozisyonlar"}
+                    </a>
+                  </li>
+                  <li onClick={props.logout} className={styles.signOut}>
+                    <a>
                       {getTranslateValue(
                         "loginheader-sign-out",
                         "Oturumu Kapat"
